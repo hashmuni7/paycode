@@ -11,7 +11,7 @@ use Rappasoft\LaravelLivewireTables\Views\Filter;
 use App\Traits\Figures;
 
 use App\Models\User;
-use App\Models\RentPayment;
+use App\Models\Rentpayment;
 use App\Models\Space;
 use App\Models\Property;
 
@@ -126,7 +126,7 @@ class LandlordPropertiesPayments extends DataTableComponent
 
     public function query(): Builder
     {
-        $query = RentPayment::query()
+        $query = Rentpayment::query()
         ->select('rentpaymenttxnid', 'amount', 'rentpayments.spaceid', 'status', 'date',
                               'description', 'rentpayments.inchannelid', 'inchanneltxnid', 'inchannels.inchannel',
                               'receiptno', 'channelinfo', 'spaces.spacename', 'propertys.property')
@@ -176,7 +176,7 @@ class LandlordPropertiesPayments extends DataTableComponent
     
     // public function render()
     // {
-    //     $this->landlordPropertiesPayments = RentPayment::select('rentpaymenttxnid', 'amount', 'rentpayments.spaceid', 'status', 'date',
+    //     $this->landlordPropertiesPayments = Rentpayment::select('rentpaymenttxnid', 'amount', 'rentpayments.spaceid', 'status', 'date',
     //                                   'description', 'rentpayments.inchannelid', 'inchanneltxnid', 'inchannels.inchannel',
     //                                   'receiptno', 'channelinfo', 'spaces.spacename', 'propertys.property')
     //                             ->where('propertys.userid', $this->landlord->id)
