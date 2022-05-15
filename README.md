@@ -1,2 +1,0 @@
-# paycode
-Unique Payment Codes
