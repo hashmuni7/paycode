@@ -7,7 +7,7 @@ use Livewire\Component;
 use App\Traits\CustomWithPagination;
 
 use App\Models\User;
-use App\Models\RentPayment;
+use App\Models\Rentpayment;
 use App\Models\Ledger;
 use App\Models\Tenure;
 

@@ -11,7 +11,7 @@ use Illuminate\Support\Facades\Auth;
 
 
 use App\Models\User;
-use App\Models\RentPayment;
+use App\Models\Rentpayment;
 use App\Models\Space;
 
 use Carbon\Carbon;

@@ -9,7 +9,7 @@ use Rappasoft\LaravelLivewireTables\Views\Filter;
 use App\Traits\Figures;
 
 use App\Models\User;
-use App\Models\RentPayment;
+use App\Models\Rentpayment;
 use App\Models\Space;
 use App\Models\Property;
 use App\Models\Ledger;
