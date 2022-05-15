@@ -53,7 +53,7 @@ return [
     |
     */
 
-    'asset_url' => 'http://localhost/paycode/public',
+    'asset_url' => env('ASSET_URL', 'public'),
 
     /*
     |--------------------------------------------------------------------------
