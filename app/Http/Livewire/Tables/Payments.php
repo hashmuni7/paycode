@@ -6,7 +6,7 @@ use Livewire\Component;
 use App\Traits\CustomWithPagination;
 
 use App\Models\User;
-use App\Models\RentPayment;
+use App\Models\Rentpayment;
 
 class Payments extends Component
 {
@@ -29,7 +29,7 @@ class Payments extends Component
 
     public function mount()
     {
-        $this->payments = RentPayment::select('rentpaymenttxnid', 'amount', 'rentpayments.spaceid', 'status', 'date',
+        $this->payments = Rentpayment::select('rentpaymenttxnid', 'amount', 'rentpayments.spaceid', 'status', 'date',
                                       'description', 'rentpayments.inchannelid', 'inchanneltxnid', 'inchannels.inchannel',
                                       'receiptno', 'channelinfo', 'spaces.spacename', 'propertys.property')                                
                                 ->leftjoin('inchannels', 'rentpayments.inchannelid', '=', 'inchannels.inchannelid')

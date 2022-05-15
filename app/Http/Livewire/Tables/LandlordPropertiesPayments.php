@@ -166,6 +166,7 @@ class LandlordPropertiesPayments extends DataTableComponent
 
     public function mount(User $landlord, $fetchFor)
     {
+        
         $this->landlord = $landlord;
         $this->paymentsToFetchSelected = $fetchFor;
     }
