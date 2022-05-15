@@ -1,0 +1,30 @@
+{
+    "id" : 22744,
+    "organization" : 14150,
+    "payment_type" : "money",
+    "amount" : "1200.00",
+    "currency" : "BXC",
+    "account" : 2948341,
+    "description" : "Per diem",
+    "phone_nos" : [
+       {
+          "metadata" : null,
+          "amount" : "1200.0000",
+          "last_error" : "",
+          "state" : "error",
+          "contact" : "5493419",
+          "batch_id" : 437751,
+          "description" : "Per diem",
+          "phonenumber" : "+256705949874",
+          "payment_id" : 123209
+       }
+    ],
+    "start_date" : "2021-07-28",
+    "metadata" : {
+       "space" : "S-P1-1"
+    },
+    "state" : "new",
+    "callback_url" : "https://webhook.site/b3bdd6e5-6d87-4cb4-9f5c-01e8ef8ce9ba"
+
+
+ }
