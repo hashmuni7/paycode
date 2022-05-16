@@ -80,7 +80,7 @@ class USSDPayments extends Controller
                     $txnCharges = $this->ugx($txn['data']->channeltxncharges);
                     $paidAmountFormatted = $this->ugx($this->amount);
                     $response = "END Transaction Successful\n";
-                    $response .= "Paid $paidAmountFormatted Rent for $space->spaceid. Charges: $txnCharges";
+                    $response .= "License Charge payment of $paidAmountFormatted for $space->spaceid. Transaction charges: $txnCharges";
                     echo $response;
                 }
                 else{
