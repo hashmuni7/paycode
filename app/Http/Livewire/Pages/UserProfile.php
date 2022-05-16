@@ -6,9 +6,11 @@ use Livewire\Component;
 use Livewire\WithFileUploads;
 use Illuminate\Support\Facades\Storage;
 use App\Models\User;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class UserProfile extends Component
 {
+    use LivewireAlert;
     use WithFileUploads;
     public $userid;
     public $profilePhoto;

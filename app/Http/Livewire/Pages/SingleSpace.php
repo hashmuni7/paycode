@@ -16,12 +16,14 @@ use App\Models\Tenure;
 use App\Models\Transactiontype;
 use Carbon\Carbon;
 use App\Traits\Figures;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 
 class SingleSpace extends Component
 {
     use CustomWithPagination;
     use Figures;
+    use LivewireAlert;
     protected $space;
     protected $tenant;
     public $spaceid;

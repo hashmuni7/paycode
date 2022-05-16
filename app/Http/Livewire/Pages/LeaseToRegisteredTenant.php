@@ -7,11 +7,12 @@ use Livewire\Component;
 use App\Models\User;
 use App\Models\Property;
 use App\Models\Space;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class LeaseToRegisteredTenant extends Component
 {
     
-    
+    use LivewireAlert;
     public $tenantPhoneNumber = '';
     public $tenantEmail = '';
     public $spaceid;
