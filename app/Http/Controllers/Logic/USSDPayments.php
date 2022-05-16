@@ -31,7 +31,7 @@ class USSDPayments extends Controller
         {
             $response = "CON Welcome to Paycode.\n";
             $response .= "1. Pay License. \n";
-            $response .= "2. Check license Balance.";
+            $response .= "2. Check License Balance.";
             return $response;
         }
         else 
