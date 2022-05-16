@@ -1,6 +1,6 @@
 <x-guest-layout>
     <x-slot name="title">
-        Landlod
+        Paycode
     </x-slot>
 
     

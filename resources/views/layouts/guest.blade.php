@@ -115,7 +115,7 @@
                                                 <a href="{{ route('login') }}" class="btn btn-outline btn-rounded btn-quaternary btn-with-arrow">Login<span><i class="fas fa-sign-in-alt"></i></span></a>
     
                                                 @if (Route::has('register'))
-                                                    <a href="{{ route('register') }}" class=" hidden btn btn-outline btn-rounded btn-primary btn-with-arrow">Register<span><i class="fas fa-chevron-right"></i></span></a>
+                                                    <!--<a href="{{ route('register') }}" class="  btn btn-outline btn-rounded btn-primary btn-with-arrow">Register<span><i class="fas fa-chevron-right"></i></span></a>-->
                                                 @endif
                                             @endauth
                                         </div>
