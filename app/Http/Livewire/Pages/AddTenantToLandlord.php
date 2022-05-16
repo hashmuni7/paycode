@@ -11,6 +11,7 @@ use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class AddTenantToLandlord extends Component
 {
+    use LivewireAlert;
     public $landlordid;
     public $landlord;
     public $tenant;

@@ -7,10 +7,12 @@ use Livewire\Component;
 
 use App\Traits\Models;
 use App\Models\User;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class EditLandlord extends Component
 {
     use Models;
+    use LivewireAlert;
     public $landlordid;
     public $landlord;
     public $landlordFirstname = '';

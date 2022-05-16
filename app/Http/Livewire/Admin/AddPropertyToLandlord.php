@@ -8,9 +8,11 @@ use App\Models\User;
 use App\Models\District;
 use App\Models\Property;
 use Carbon\Carbon;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class AddPropertyToLandlord extends Component
 {
+    use LivewireAlert;
     // Attributes
     public $landlord;
 

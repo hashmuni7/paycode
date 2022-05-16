@@ -6,11 +6,13 @@ use Livewire\Component;
 use App\Models\User;
 use App\Models\Property;
 use App\Models\Space;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class AddTenantToProperty extends Component
 {
     //public $landlordid;
     //public $landlord;
+    use LivewireAlert;
     public $tenant;
     public $tenantFirstname = '';
     public $tenantLastname = '';

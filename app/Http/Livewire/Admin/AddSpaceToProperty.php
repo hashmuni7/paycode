@@ -8,9 +8,11 @@ use App\Models\District;
 use App\Models\Property;
 use App\Models\Space;
 use Carbon\Carbon;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class AddSpaceToProperty extends Component
 {
+    use LivewireAlert;
     // Attributes
     public $landlord;
     public $focusProperty;

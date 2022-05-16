@@ -12,10 +12,12 @@ use App\Models\User;
 use App\Models\Property;
 use App\Models\Space;
 use App\Models\Tenure;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class AddSpaceToLandlord extends Component
 {
     // Attributes
+    use LivewireAlert;
     public $landlord;
 
     public $landlordid;
