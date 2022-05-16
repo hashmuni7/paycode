@@ -9,9 +9,9 @@
 
 		<title>{{$title}}</title>	
 
-		<meta name="keywords" content="HTML5 Template" />
-		<meta name="description" content="Porto - Responsive HTML5 Template">
-		<meta name="author" content="okler.net">
+		<meta name="keywords" content="Paycode App" />
+		<meta name="description" content="KCCA License Payments App">
+		<meta name="author" content="kabuye-hashim-muniiru">
 
 		<!-- Favicon -->
         <link rel="icon" href="{{ URL::asset('img/small-logo.ico') }}"  type="image/x-icon" />
