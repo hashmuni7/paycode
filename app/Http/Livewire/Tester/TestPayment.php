@@ -10,9 +10,11 @@ use App\Models\Ledger;
 use App\Http\Controllers\Logic\Transactions;
 use Carbon\Carbon;
 use Livewire\Component;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class TestPayment extends Component
 {
+    use LivewireAlert;
     public $spaceCode = 30664470001;
     public $paymentAmount;
     public $inChannel;

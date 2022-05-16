@@ -7,6 +7,7 @@ use Livewire\Component;
 use App\Models\User;
 use App\Models\Property;
 use App\Models\Space;
+use Jantinnerezo\LivewireAlert\LivewireAlert;
 
 class AddTenantToLandlord extends Component
 {
