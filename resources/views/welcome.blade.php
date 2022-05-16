@@ -17,7 +17,7 @@
 						<div class="col text-center text-md-left">
 							<h1 class="text-color-dark font-weight-extra-bold text-11 line-height-2 mb-1 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="500" data-plugin-options="{'minWindowWidth': 0}">SIMPLIFY. AUTOMATE. GROW.</h1>
 							<h2 class="text-color-info font-weight-normal text-5 line-height-2 mb-4 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="750" data-plugin-options="{'minWindowWidth': 0}">The highest rated and easiest to learn property management platform</h2>
-							<a href="{{route('register')}}" class="btn btn-primary btn-modern font-weight-semibold text-2 py-3 btn-px-4 mt-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">Start Your Journey</a>
+							<a href="{{route('login')}}" class="btn btn-primary btn-modern font-weight-semibold text-2 py-3 btn-px-4 mt-2 appear-animation" data-appear-animation="fadeInUpShorter" data-appear-animation-delay="1000" data-plugin-options="{'minWindowWidth': 0}">Start Your Journey</a>
 						</div>
 					</Div>
 				</div>
